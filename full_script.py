@@ -3,7 +3,7 @@ import numpy as np
 import math
 
 # ENTER SCORES FILENAME AND PLAYER NICKNAME HERE
-filename ='scores.csv'
+filename = 'scores.csv'
 playername = 'YOUR NICKNAME'
 
 # Enter your bonus pp for more accurate results

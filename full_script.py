@@ -3,11 +3,11 @@ import numpy as np
 import math
 
 # ENTER SCORES FILENAME AND PLAYER NICKNAME HERE
-filename ='Scores.csv'
-playername = 'Givikap120'
+filename ='scores.csv'
+playername = 'YOUR NICKNAME'
 
 # Enter your bonus pp for more accurate results
-current_bonus_pp = 231.324
+current_bonus_pp = 0
 ranked_scores_count = round(math.log(1 - current_bonus_pp / 416.6667, 0.9994))
 print(f'Estimated amount of ranked scores - {ranked_scores_count}')
 # It calculates approximation of your bonus pp
